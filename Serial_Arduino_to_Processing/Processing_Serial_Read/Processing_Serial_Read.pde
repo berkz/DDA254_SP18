@@ -19,7 +19,7 @@ On my Mac, it is port 2 and so I open Serial.list()[2].
 */
 
 printArray(Serial.list()); // this line prints the port list to the console
-String portName = Serial.list()[2]; //change the number in the [] for the port you need
+String portName = Serial.list()[1]; //change the number in the [] for the port you need
 myPort = new Serial(this, portName, 9600);
 }
 
